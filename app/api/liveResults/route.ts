@@ -9,7 +9,6 @@ export async function GET(req: Request) {
     // cache: 'no-store'
   })).json()
 
-  const dataObj = dataBreakDown(fetchedData)
-  return new Response(JSON. stringify(dataObj))
-  
+  const data = dataBreakDown(fetchedData)
+  return Response.json({data})
 }
