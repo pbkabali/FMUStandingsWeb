@@ -1,8 +1,9 @@
 import React from 'react'
+import LiveResultsTable from '../components/liveResultsTable'
 
 const LiveResults = () => {
   return (
-    <div>LiveResults</div>
+    <LiveResultsTable />
   )
 }
 
