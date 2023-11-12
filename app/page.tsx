@@ -19,8 +19,8 @@ export default function Home () {
 
   return (
     <main>
-    {/* <h1>Welcome</h1>
-    <Link href='/LiveResults'>Live Results</Link> */}
+    <h1>Welcome</h1>
+    <Link href='/LiveResults'>Live Results</Link>
    <LiveResultsTable />
     </main>
   )
